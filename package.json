@@ -1,0 +1,36 @@
+{
+  "name": "gaming_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": " set cross-env NODE_ENV=development & webpack --progress",
+    "start": "webpack-dev-server --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "axios": "^0.21.1",
+    "core-js": "^2.6.12",
+    "cross-env": "^7.0.3",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "file-loader": "^6.2.0",
+    "lite-server": "^2.6.1",
+    "prettier": "^2.3.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
+    "connect-api-mocker": "^1.10.0",
+    "css-loader": "^5.2.6",
+    "eslint": "^7.28.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
