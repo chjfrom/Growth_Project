@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 if (module.hot) {
-  console.log("핫모듈 켜짐");
+  console.log("핫모듈 켜짐111");
 } else {
   console.log("핫모듈 X");
 }
